@@ -1,0 +1,25 @@
+news:x:9:9:news:/var/spool/news:/usr/sbin/nologin
+uucp:x:10:10:uucp:/var/spool/uucp:/usr/sbin/nologin
+proxy:x:13:13:proxy:/bin:/usr/sbin/nologin
+www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin
+backup:x:34:34:backup:/var/backups:/usr/sbin/nologin
+list:x:38:38:Mailing List Manager:/var/list:/usr/sbin/nologin
+irc:x:39:39:ircd:/run/ircd:/usr/sbin/nologin
+gnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/usr/sbin/nologin
+nobody:x:65534:65534:nobody:/nonexistent:/usr/sbin/nologin
+systemd-network:x:100:102:systemd Network Management,,,:/run/systemd:/usr/sbin/nologin
+systemd-resolve:x:101:103:systemd Resolver,,,:/run/systemd:/usr/sbin/nologin
+messagebus:x:102:105::/nonexistent:/usr/sbin/nologin
+systemd-timesync:x:103:106:systemd Time Synchronization,,,:/run/systemd:/usr/sbin/nologin
+syslog:x:104:111::/home/syslog:/usr/sbin/nologin
+_apt:x:105:65534::/nonexistent:/usr/sbin/nologin
+uuidd:x:106:112::/run/uuidd:/usr/sbin/nologin
+tcpdump:x:107:113::/nonexistent:/usr/sbin/nologin
+iqbaalrj:x:1000:1000:,,,:/home/iqbaalrj:/bin/bash
+ibal:x:1001:1001::/home/ibal:/bin/sh
+sshd:x:108:65534::/run/sshd:/usr/sbin/nologin
+dnsmasq:x:109:65534:dnsmasq,,,:/var/lib/misc:/usr/sbin/nologin
+swtpm:x:110:118:virtual TPM software stack,,,:/var/lib/swtpm:/bin/false
+libvirt-qemu:x:64055:109:Libvirt Qemu,,,:/var/lib/libvirt:/usr/sbin/nologin
+libvirt-dnsmasq:x:111:120:Libvirt Dnsmasq,,,:/var/lib/libvirt/dnsmasq:/usr/sbin/nologin
+dicoding:x:1002:1002:Dicoding Indonesia,,,:/home/dicoding:/bin/bash

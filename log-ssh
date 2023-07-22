@@ -1,0 +1,325 @@
+/var/log/auth.log:Jul  7 04:56:04 LAPTOP-13H4O2FN systemd-logind[162]: New seat seat0.
+/var/log/auth.log:Jul  7 04:56:04 LAPTOP-13H4O2FN sshd[217]: Server listening on 0.0.0.0 port 22.
+/var/log/auth.log:Jul  7 04:56:04 LAPTOP-13H4O2FN sshd[217]: Server listening on :: port 22.
+/var/log/auth.log:Jul  7 04:56:11 LAPTOP-13H4O2FN login[582]: pam_unix(login:session): session opened for user iqbaalrj(uid=1000) by (uid=0)
+/var/log/auth.log:Jul  7 04:56:11 LAPTOP-13H4O2FN systemd-logind[162]: New session c1 of user iqbaalrj.
+/var/log/auth.log:Jul  7 04:56:11 LAPTOP-13H4O2FN systemd: pam_unix(systemd-user:session): session opened for user iqbaalrj(uid=1000) by (uid=0)
+/var/log/auth.log:Jul  7 04:56:47 LAPTOP-13H4O2FN systemd-logind[168]: New seat seat0.
+/var/log/auth.log:Jul  7 04:56:48 LAPTOP-13H4O2FN sshd[222]: Server listening on 0.0.0.0 port 22.
+/var/log/auth.log:Jul  7 04:56:48 LAPTOP-13H4O2FN sshd[222]: Server listening on :: port 22.
+/var/log/auth.log:Jul  7 04:56:54 LAPTOP-13H4O2FN login[396]: pam_unix(login:session): session opened for user iqbaalrj(uid=1000) by (uid=0)
+/var/log/auth.log:Jul  7 04:56:54 LAPTOP-13H4O2FN systemd-logind[168]: New session c1 of user iqbaalrj.
+/var/log/auth.log:Jul  7 04:56:54 LAPTOP-13H4O2FN systemd: pam_unix(systemd-user:session): session opened for user iqbaalrj(uid=1000) by (uid=0)
+/var/log/auth.log:Jul  7 04:57:15 LAPTOP-13H4O2FN sudo: iqbaalrj : TTY=pts/0 ; PWD=/home/iqbaalrj ; USER=root ; COMMAND=/usr/bin/apt install openssh-server
+/var/log/auth.log:Jul  7 04:57:15 LAPTOP-13H4O2FN sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+/var/log/auth.log:Jul  7 04:57:19 LAPTOP-13H4O2FN sudo: pam_unix(sudo:session): session closed for user root
+/var/log/auth.log:Jul  7 04:57:43 LAPTOP-13H4O2FN sudo: iqbaalrj : TTY=pts/0 ; PWD=/home/iqbaalrj ; USER=root ; COMMAND=/usr/bin/systemctl start sshd.service
+/var/log/auth.log:Jul  7 04:57:43 LAPTOP-13H4O2FN sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+/var/log/auth.log:Jul  7 04:57:43 LAPTOP-13H4O2FN sudo: pam_unix(sudo:session): session closed for user root
+/var/log/auth.log:Jul  7 04:57:50 LAPTOP-13H4O2FN sudo: iqbaalrj : TTY=pts/0 ; PWD=/home/iqbaalrj ; USER=root ; COMMAND=/usr/bin/systemctl status sshd.service
+/var/log/auth.log:Jul  7 04:57:50 LAPTOP-13H4O2FN sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+/var/log/auth.log:Jul  7 04:57:50 LAPTOP-13H4O2FN sudo: pam_unix(sudo:session): session closed for user root
+/var/log/auth.log:Jul  7 04:58:22 LAPTOP-13H4O2FN sudo: iqbaalrj : TTY=pts/0 ; PWD=/home/iqbaalrj ; USER=root ; COMMAND=/usr/bin/systemctl enable sshd.service
+/var/log/auth.log:Jul  7 04:58:22 LAPTOP-13H4O2FN sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+/var/log/auth.log:Jul  7 04:58:22 LAPTOP-13H4O2FN sudo: pam_unix(sudo:session): session closed for user root
+/var/log/auth.log:Jul  7 04:58:42 LAPTOP-13H4O2FN sudo: iqbaalrj : TTY=pts/0 ; PWD=/home/iqbaalrj ; USER=root ; COMMAND=/usr/bin/systemctl status sshd.service
+/var/log/auth.log:Jul  7 04:58:42 LAPTOP-13H4O2FN sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+/var/log/auth.log:Jul  7 04:58:42 LAPTOP-13H4O2FN sudo: pam_unix(sudo:session): session closed for user root
+/var/log/auth.log:Jul  7 05:04:46 LAPTOP-13H4O2FN sshd[1101]: Connection closed by 127.0.0.1 port 60704 [preauth]
+/var/log/auth.log:Jul  7 05:04:52 LAPTOP-13H4O2FN sshd[1108]: Connection closed by authenticating user iqbaalrj 127.0.0.1 port 60708 [preauth]
+/var/log/auth.log:Jul  7 05:04:57 LAPTOP-13H4O2FN sshd[1121]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1  user=iqbaalrj
+/var/log/auth.log:Jul  7 05:04:59 LAPTOP-13H4O2FN sshd[1121]: Failed password for iqbaalrj from 127.0.0.1 port 56306 ssh2
+/var/log/auth.log:Jul  7 05:05:08 LAPTOP-13H4O2FN sshd[1121]: Accepted password for iqbaalrj from 127.0.0.1 port 56306 ssh2
+/var/log/auth.log:Jul  7 05:05:08 LAPTOP-13H4O2FN sshd[1121]: pam_unix(sshd:session): session opened for user iqbaalrj(uid=1000) by (uid=0)
+/var/log/auth.log:Jul  7 05:05:08 LAPTOP-13H4O2FN systemd-logind[168]: New session c2 of user iqbaalrj.
+/var/log/auth.log:Jul  7 05:05:08 LAPTOP-13H4O2FN sshd[1145]: Received disconnect from 127.0.0.1 port 56306:11: disconnected by user
+/var/log/auth.log:Jul  7 05:05:08 LAPTOP-13H4O2FN sshd[1145]: Disconnected from user iqbaalrj 127.0.0.1 port 56306
+/var/log/auth.log:Jul  7 05:05:08 LAPTOP-13H4O2FN sshd[1121]: pam_unix(sshd:session): session closed for user iqbaalrj
+/var/log/auth.log:Jul  7 05:05:08 LAPTOP-13H4O2FN systemd-logind[168]: Session c2 logged out. Waiting for processes to exit.
+/var/log/auth.log:Jul  7 05:05:08 LAPTOP-13H4O2FN systemd-logind[168]: Removed session c2.
+/var/log/auth.log:Jul  7 05:07:56 LAPTOP-13H4O2FN sshd[1244]: Accepted publickey for iqbaalrj from 127.0.0.1 port 34730 ssh2: RSA SHA256:TFoFGLqj+8ECct9tKcktnbJiZ7HTSz06OB6qgwmoPOw
+/var/log/auth.log:Jul  7 05:07:57 LAPTOP-13H4O2FN sshd[1244]: pam_unix(sshd:session): session opened for user iqbaalrj(uid=1000) by (uid=0)
+/var/log/auth.log:Jul  7 05:07:57 LAPTOP-13H4O2FN systemd-logind[168]: New session c3 of user iqbaalrj.
+/var/log/auth.log:Jul  7 05:14:51 LAPTOP-13H4O2FN sshd[1268]: Received disconnect from 127.0.0.1 port 34730:11: disconnected by user
+/var/log/auth.log:Jul  7 05:14:51 LAPTOP-13H4O2FN sshd[1268]: Disconnected from user iqbaalrj 127.0.0.1 port 34730
+/var/log/auth.log:Jul  7 05:14:51 LAPTOP-13H4O2FN sshd[1244]: pam_unix(sshd:session): session closed for user iqbaalrj
+/var/log/auth.log:Jul  7 05:14:51 LAPTOP-13H4O2FN systemd-logind[168]: Session c3 logged out. Waiting for processes to exit.
+/var/log/auth.log:Jul  7 05:14:51 LAPTOP-13H4O2FN systemd-logind[168]: Removed session c3.
+/var/log/auth.log:Jul  7 05:16:35 LAPTOP-13H4O2FN sshd[1353]: Connection closed by authenticating user iqbaalrj 127.0.0.1 port 53328 [preauth]
+/var/log/auth.log:Jul  7 05:16:35 LAPTOP-13H4O2FN sshd[1360]: Accepted publickey for iqbaalrj from 127.0.0.1 port 53342 ssh2: RSA SHA256:TFoFGLqj+8ECct9tKcktnbJiZ7HTSz06OB6qgwmoPOw
+/var/log/auth.log:Jul  7 05:16:36 LAPTOP-13H4O2FN sshd[1360]: pam_unix(sshd:session): session opened for user iqbaalrj(uid=1000) by (uid=0)
+/var/log/auth.log:Jul  7 05:16:36 LAPTOP-13H4O2FN systemd-logind[168]: New session c4 of user iqbaalrj.
+/var/log/auth.log:Jul  7 05:16:36 LAPTOP-13H4O2FN sshd[1384]: Received disconnect from 127.0.0.1 port 53342:11: disconnected by user
+/var/log/auth.log:Jul  7 05:16:36 LAPTOP-13H4O2FN sshd[1384]: Disconnected from user iqbaalrj 127.0.0.1 port 53342
+/var/log/auth.log:Jul  7 05:16:36 LAPTOP-13H4O2FN sshd[1360]: pam_unix(sshd:session): session closed for user iqbaalrj
+/var/log/auth.log:Jul  7 05:16:36 LAPTOP-13H4O2FN systemd-logind[168]: Session c4 logged out. Waiting for processes to exit.
+/var/log/auth.log:Jul  7 05:16:36 LAPTOP-13H4O2FN systemd-logind[168]: Removed session c4.
+/var/log/auth.log:Jul  7 05:16:43 LAPTOP-13H4O2FN sshd[1390]: Accepted publickey for iqbaalrj from 127.0.0.1 port 54176 ssh2: RSA SHA256:TFoFGLqj+8ECct9tKcktnbJiZ7HTSz06OB6qgwmoPOw
+/var/log/auth.log:Jul  7 05:16:43 LAPTOP-13H4O2FN sshd[1390]: pam_unix(sshd:session): session opened for user iqbaalrj(uid=1000) by (uid=0)
+/var/log/auth.log:Jul  7 05:16:43 LAPTOP-13H4O2FN systemd-logind[168]: New session c5 of user iqbaalrj.
+/var/log/auth.log:Jul  7 05:17:01 LAPTOP-13H4O2FN CRON[1426]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+/var/log/auth.log:Jul  7 05:17:01 LAPTOP-13H4O2FN CRON[1426]: pam_unix(cron:session): session closed for user root
+/var/log/auth.log:Jul  7 05:17:04 LAPTOP-13H4O2FN sshd[1414]: Received disconnect from 127.0.0.1 port 54176:11: disconnected by user
+/var/log/auth.log:Jul  7 05:17:04 LAPTOP-13H4O2FN sshd[1414]: Disconnected from user iqbaalrj 127.0.0.1 port 54176
+/var/log/auth.log:Jul  7 05:17:04 LAPTOP-13H4O2FN sshd[1390]: pam_unix(sshd:session): session closed for user iqbaalrj
+/var/log/auth.log:Jul  7 05:17:04 LAPTOP-13H4O2FN systemd-logind[168]: Session c5 logged out. Waiting for processes to exit.
+/var/log/auth.log:Jul  7 05:17:04 LAPTOP-13H4O2FN systemd-logind[168]: Removed session c5.
+/var/log/auth.log:Jul  7 05:17:35 LAPTOP-13H4O2FN systemd-logind[168]: New seat seat0.
+/var/log/auth.log:Jul  7 05:17:38 LAPTOP-13H4O2FN sshd[247]: Server listening on 0.0.0.0 port 22.
+/var/log/auth.log:Jul  7 05:17:38 LAPTOP-13H4O2FN sshd[247]: Server listening on :: port 22.
+/var/log/auth.log:Jul  7 05:17:40 LAPTOP-13H4O2FN login[352]: pam_unix(login:session): session opened for user iqbaalrj(uid=1000) by (uid=0)
+/var/log/auth.log:Jul  7 05:17:41 LAPTOP-13H4O2FN systemd-logind[168]: New session c1 of user iqbaalrj.
+/var/log/auth.log:Jul  7 05:17:41 LAPTOP-13H4O2FN systemd: pam_unix(systemd-user:session): session opened for user iqbaalrj(uid=1000) by (uid=0)
+/var/log/auth.log:Jul  7 06:00:28 LAPTOP-13H4O2FN sudo: iqbaalrj : TTY=pts/0 ; PWD=/home/iqbaalrj ; USER=root ; COMMAND=/usr/sbin/adduser dicoding
+/var/log/auth.log:Jul  7 06:00:28 LAPTOP-13H4O2FN sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+/var/log/auth.log:Jul  7 06:00:29 LAPTOP-13H4O2FN groupadd[763]: group added to /etc/group: name=dicoding, GID=1002
+/var/log/auth.log:Jul  7 06:00:29 LAPTOP-13H4O2FN groupadd[763]: group added to /etc/gshadow: name=dicoding
+/var/log/auth.log:Jul  7 06:00:29 LAPTOP-13H4O2FN groupadd[763]: new group: name=dicoding, GID=1002
+/var/log/auth.log:Jul  7 06:00:29 LAPTOP-13H4O2FN useradd[769]: new user: name=dicoding, UID=1002, GID=1002, home=/home/dicoding, shell=/bin/bash, from=/dev/pts/2
+/var/log/auth.log:Jul  7 06:01:03 LAPTOP-13H4O2FN passwd[783]: pam_unix(passwd:chauthtok): password changed for dicoding
+/var/log/auth.log:Jul  7 06:01:21 LAPTOP-13H4O2FN chfn[784]: changed user 'dicoding' information
+/var/log/auth.log:Jul  7 06:01:24 LAPTOP-13H4O2FN sudo: pam_unix(sudo:session): session closed for user root
+/var/log/auth.log:Jul  7 06:03:18 LAPTOP-13H4O2FN sshd[793]: Accepted password for dicoding from 127.0.0.1 port 34610 ssh2
+/var/log/auth.log:Jul  7 06:03:18 LAPTOP-13H4O2FN sshd[793]: pam_unix(sshd:session): session opened for user dicoding(uid=1002) by (uid=0)
+/var/log/auth.log:Jul  7 06:03:18 LAPTOP-13H4O2FN systemd-logind[168]: New session c2 of user dicoding.
+/var/log/auth.log:Jul  7 06:03:18 LAPTOP-13H4O2FN systemd: pam_unix(systemd-user:session): session opened for user dicoding(uid=1002) by (uid=0)
+/var/log/auth.log:Jul  7 06:04:01 LAPTOP-13H4O2FN sshd[837]: Accepted password for iqbaalrj from 127.0.0.1 port 35496 ssh2
+/var/log/auth.log:Jul  7 06:04:01 LAPTOP-13H4O2FN sshd[837]: pam_unix(sshd:session): session opened for user iqbaalrj(uid=1000) by (uid=0)
+/var/log/auth.log:Jul  7 06:04:01 LAPTOP-13H4O2FN systemd-logind[168]: New session c3 of user iqbaalrj.
+/var/log/auth.log:Jul  7 06:04:06 LAPTOP-13H4O2FN sshd[861]: Received disconnect from 127.0.0.1 port 35496:11: disconnected by user
+/var/log/auth.log:Jul  7 06:04:06 LAPTOP-13H4O2FN sshd[861]: Disconnected from user iqbaalrj 127.0.0.1 port 35496
+/var/log/auth.log:Jul  7 06:04:06 LAPTOP-13H4O2FN sshd[837]: pam_unix(sshd:session): session closed for user iqbaalrj
+/var/log/auth.log:Jul  7 06:04:06 LAPTOP-13H4O2FN systemd-logind[168]: Session c3 logged out. Waiting for processes to exit.
+/var/log/auth.log:Jul  7 06:04:06 LAPTOP-13H4O2FN systemd-logind[168]: Removed session c3.
+/var/log/auth.log:Jul  7 06:04:20 LAPTOP-13H4O2FN sshd[824]: Received disconnect from 127.0.0.1 port 34610:11: disconnected by user
+/var/log/auth.log:Jul  7 06:04:20 LAPTOP-13H4O2FN sshd[824]: Disconnected from user dicoding 127.0.0.1 port 34610
+/var/log/auth.log:Jul  7 06:04:20 LAPTOP-13H4O2FN sshd[793]: pam_unix(sshd:session): session closed for user dicoding
+/var/log/auth.log:Jul  7 06:04:20 LAPTOP-13H4O2FN systemd-logind[168]: Session c2 logged out. Waiting for processes to exit.
+/var/log/auth.log:Jul  7 06:04:20 LAPTOP-13H4O2FN systemd-logind[168]: Removed session c2.
+/var/log/auth.log:Jul  7 06:17:01 LAPTOP-13H4O2FN CRON[897]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+/var/log/auth.log:Jul  7 06:17:01 LAPTOP-13H4O2FN CRON[897]: pam_unix(cron:session): session closed for user root
+/var/log/auth.log:Jul  7 06:25:01 LAPTOP-13H4O2FN CRON[907]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+/var/log/auth.log:Jul  7 06:25:01 LAPTOP-13H4O2FN CRON[907]: pam_unix(cron:session): session closed for user root
+/var/log/auth.log:Jul  7 07:06:26 LAPTOP-13H4O2FN sudo: iqbaalrj : TTY=pts/0 ; PWD=/home/iqbaalrj ; USER=root ; COMMAND=/usr/sbin/userdel dicoding
+/var/log/auth.log:Jul  7 07:06:26 LAPTOP-13H4O2FN sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+/var/log/auth.log:Jul  7 07:06:26 LAPTOP-13H4O2FN userdel[963]: delete user 'dicoding'
+/var/log/auth.log:Jul  7 07:06:26 LAPTOP-13H4O2FN userdel[963]: removed group 'dicoding' owned by 'dicoding'
+/var/log/auth.log:Jul  7 07:06:26 LAPTOP-13H4O2FN userdel[963]: removed shadow group 'dicoding' owned by 'dicoding'
+/var/log/auth.log:Jul  7 07:06:26 LAPTOP-13H4O2FN sudo: pam_unix(sudo:session): session closed for user root
+/var/log/auth.log:Jul  7 07:06:41 LAPTOP-13H4O2FN sudo: iqbaalrj : TTY=pts/0 ; PWD=/home/iqbaalrj ; USER=root ; COMMAND=/usr/sbin/adduser dicoding
+/var/log/auth.log:Jul  7 07:06:41 LAPTOP-13H4O2FN sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+/var/log/auth.log:Jul  7 07:06:41 LAPTOP-13H4O2FN groupadd[974]: group added to /etc/group: name=dicoding, GID=1002
+/var/log/auth.log:Jul  7 07:06:42 LAPTOP-13H4O2FN groupadd[974]: group added to /etc/gshadow: name=dicoding
+/var/log/auth.log:Jul  7 07:06:42 LAPTOP-13H4O2FN groupadd[974]: new group: name=dicoding, GID=1002
+/var/log/auth.log:Jul  7 07:06:42 LAPTOP-13H4O2FN useradd[980]: new user: name=dicoding, UID=1002, GID=1002, home=/home/dicoding, shell=/bin/bash, from=/dev/pts/2
+/var/log/auth.log:Jul  7 07:07:38 LAPTOP-13H4O2FN passwd[987]: pam_unix(passwd:chauthtok): password changed for dicoding
+/var/log/auth.log:Jul  7 07:08:03 LAPTOP-13H4O2FN chfn[990]: changed user 'dicoding' information
+/var/log/auth.log:Jul  7 07:08:04 LAPTOP-13H4O2FN sudo: pam_unix(sudo:session): session closed for user root
+/var/log/auth.log:Jul  7 07:12:39 LAPTOP-13H4O2FN sudo: iqbaalrj : TTY=pts/0 ; PWD=/home/iqbaalrj ; USER=root ; COMMAND=/usr/bin/systemctl start sshd.service
+/var/log/auth.log:Jul  7 07:12:39 LAPTOP-13H4O2FN sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+/var/log/auth.log:Jul  7 07:12:39 LAPTOP-13H4O2FN sudo: pam_unix(sudo:session): session closed for user root
+/var/log/auth.log:Jul  7 07:12:45 LAPTOP-13H4O2FN sudo: iqbaalrj : TTY=pts/0 ; PWD=/home/iqbaalrj ; USER=root ; COMMAND=/usr/bin/systemctl status sshd.service
+/var/log/auth.log:Jul  7 07:12:45 LAPTOP-13H4O2FN sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+/var/log/auth.log:Jul  7 07:12:45 LAPTOP-13H4O2FN sudo: pam_unix(sudo:session): session closed for user root
+/var/log/auth.log:Jul  7 07:17:01 LAPTOP-13H4O2FN CRON[1023]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+/var/log/auth.log:Jul  7 07:17:02 LAPTOP-13H4O2FN CRON[1023]: pam_unix(cron:session): session closed for user root
+/var/log/auth.log:Jul  7 07:32:29 LAPTOP-13H4O2FN sshd[1077]: Connection closed by authenticating user dicoding 127.0.0.1 port 60092 [preauth]
+/var/log/auth.log:Jul  7 07:32:29 LAPTOP-13H4O2FN sshd[1084]: Connection closed by authenticating user dicoding 127.0.0.1 port 60106 [preauth]
+/var/log/auth.log:Jul  7 07:32:38 LAPTOP-13H4O2FN sshd[1097]: Accepted password for dicoding from 127.0.0.1 port 33090 ssh2
+/var/log/auth.log:Jul  7 07:32:38 LAPTOP-13H4O2FN sshd[1097]: pam_unix(sshd:session): session opened for user dicoding(uid=1002) by (uid=0)
+/var/log/auth.log:Jul  7 07:32:38 LAPTOP-13H4O2FN systemd-logind[168]: New session c4 of user dicoding.
+/var/log/auth.log:Jul  7 07:32:38 LAPTOP-13H4O2FN systemd: pam_unix(systemd-user:session): session opened for user dicoding(uid=1002) by (uid=0)
+/var/log/auth.log:Jul  7 07:32:39 LAPTOP-13H4O2FN sshd[1130]: Received disconnect from 127.0.0.1 port 33090:11: disconnected by user
+/var/log/auth.log:Jul  7 07:32:39 LAPTOP-13H4O2FN sshd[1130]: Disconnected from user dicoding 127.0.0.1 port 33090
+/var/log/auth.log:Jul  7 07:32:39 LAPTOP-13H4O2FN sshd[1097]: pam_unix(sshd:session): session closed for user dicoding
+/var/log/auth.log:Jul  7 07:32:39 LAPTOP-13H4O2FN systemd-logind[168]: Session c4 logged out. Waiting for processes to exit.
+/var/log/auth.log:Jul  7 07:32:39 LAPTOP-13H4O2FN systemd-logind[168]: Removed session c4.
+/var/log/auth.log:Jul  7 07:33:53 LAPTOP-13H4O2FN sshd[1144]: Accepted publickey for dicoding from 127.0.0.1 port 36148 ssh2: RSA SHA256:pHuhdFsJxMvfhW/aFJkszp22d7gZHh+bX4nB6lZXACs
+/var/log/auth.log:Jul  7 07:33:53 LAPTOP-13H4O2FN sshd[1144]: pam_unix(sshd:session): session opened for user dicoding(uid=1002) by (uid=0)
+/var/log/auth.log:Jul  7 07:33:53 LAPTOP-13H4O2FN systemd-logind[168]: New session c5 of user dicoding.
+/var/log/auth.log:Jul  7 07:33:53 LAPTOP-13H4O2FN systemd: pam_unix(systemd-user:session): session opened for user dicoding(uid=1002) by (uid=0)
+/var/log/auth.log:Jul  7 07:36:55 LAPTOP-13H4O2FN sshd[1175]: Received disconnect from 127.0.0.1 port 36148:11: disconnected by user
+/var/log/auth.log:Jul  7 07:36:55 LAPTOP-13H4O2FN sshd[1175]: Disconnected from user dicoding 127.0.0.1 port 36148
+/var/log/auth.log:Jul  7 07:36:55 LAPTOP-13H4O2FN sshd[1144]: pam_unix(sshd:session): session closed for user dicoding
+/var/log/auth.log:Jul  7 07:36:55 LAPTOP-13H4O2FN systemd-logind[168]: Session c5 logged out. Waiting for processes to exit.
+/var/log/auth.log:Jul  7 07:36:55 LAPTOP-13H4O2FN systemd-logind[168]: Removed session c5.
+/var/log/auth.log:Jul  7 07:37:30 LAPTOP-13H4O2FN sudo: iqbaalrj : TTY=pts/0 ; PWD=/home/iqbaalrj ; USER=root ; COMMAND=/usr/bin/nano /etc/ssh/sshd_config
+/var/log/auth.log:Jul  7 07:37:30 LAPTOP-13H4O2FN sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+/var/log/auth.log:Jul  7 07:41:07 LAPTOP-13H4O2FN sudo: pam_unix(sudo:session): session closed for user root
+/var/log/auth.log:Jul  7 07:41:25 LAPTOP-13H4O2FN sudo: iqbaalrj : TTY=pts/0 ; PWD=/home/iqbaalrj ; USER=root ; COMMAND=/usr/bin/systemctl restart sshd.service
+/var/log/auth.log:Jul  7 07:41:25 LAPTOP-13H4O2FN sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+/var/log/auth.log:Jul  7 07:41:25 LAPTOP-13H4O2FN sshd[247]: Received signal 15; terminating.
+/var/log/auth.log:Jul  7 07:41:25 LAPTOP-13H4O2FN sshd[1239]: Server listening on 0.0.0.0 port 22.
+/var/log/auth.log:Jul  7 07:41:25 LAPTOP-13H4O2FN sshd[1239]: Server listening on :: port 22.
+/var/log/auth.log:Jul  7 07:41:25 LAPTOP-13H4O2FN sudo: pam_unix(sudo:session): session closed for user root
+/var/log/auth.log:Jul  7 07:41:48 LAPTOP-13H4O2FN sshd[1241]: Accepted publickey for dicoding from 127.0.0.1 port 38758 ssh2: RSA SHA256:pHuhdFsJxMvfhW/aFJkszp22d7gZHh+bX4nB6lZXACs
+/var/log/auth.log:Jul  7 07:41:48 LAPTOP-13H4O2FN sshd[1241]: pam_unix(sshd:session): session opened for user dicoding(uid=1002) by (uid=0)
+/var/log/auth.log:Jul  7 07:41:48 LAPTOP-13H4O2FN systemd-logind[168]: New session c6 of user dicoding.
+/var/log/auth.log:Jul  7 07:41:48 LAPTOP-13H4O2FN systemd: pam_unix(systemd-user:session): session opened for user dicoding(uid=1002) by (uid=0)
+/var/log/auth.log:Jul  7 07:42:20 LAPTOP-13H4O2FN sshd[1272]: Received disconnect from 127.0.0.1 port 38758:11: disconnected by user
+/var/log/auth.log:Jul  7 07:42:20 LAPTOP-13H4O2FN sshd[1272]: Disconnected from user dicoding 127.0.0.1 port 38758
+/var/log/auth.log:Jul  7 07:42:20 LAPTOP-13H4O2FN sshd[1241]: pam_unix(sshd:session): session closed for user dicoding
+/var/log/auth.log:Jul  7 07:42:20 LAPTOP-13H4O2FN systemd-logind[168]: Session c6 logged out. Waiting for processes to exit.
+/var/log/auth.log:Jul  7 07:42:20 LAPTOP-13H4O2FN systemd-logind[168]: Removed session c6.
+/var/log/auth.log:Jul  7 07:42:23 LAPTOP-13H4O2FN sudo: iqbaalrj : TTY=pts/0 ; PWD=/home/iqbaalrj ; USER=root ; COMMAND=/usr/bin/nano /etc/ssh/sshd_config
+/var/log/auth.log:Jul  7 07:42:23 LAPTOP-13H4O2FN sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+/var/log/auth.log:Jul  7 07:43:19 LAPTOP-13H4O2FN sudo: pam_unix(sudo:session): session closed for user root
+/var/log/auth.log:Jul  7 07:43:22 LAPTOP-13H4O2FN sudo: iqbaalrj : TTY=pts/0 ; PWD=/home/iqbaalrj ; USER=root ; COMMAND=/usr/bin/systemctl restart sshd.service
+/var/log/auth.log:Jul  7 07:43:22 LAPTOP-13H4O2FN sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+/var/log/auth.log:Jul  7 07:43:22 LAPTOP-13H4O2FN sshd[1239]: Received signal 15; terminating.
+/var/log/auth.log:Jul  7 07:43:22 LAPTOP-13H4O2FN sshd[1298]: Server listening on 0.0.0.0 port 2000.
+/var/log/auth.log:Jul  7 07:43:22 LAPTOP-13H4O2FN sshd[1298]: Server listening on :: port 2000.
+/var/log/auth.log:Jul  7 07:43:22 LAPTOP-13H4O2FN sudo: pam_unix(sudo:session): session closed for user root
+/var/log/auth.log:Jul  7 07:43:46 LAPTOP-13H4O2FN sudo: iqbaalrj : TTY=pts/0 ; PWD=/home/iqbaalrj ; USER=root ; COMMAND=/usr/bin/nano /etc/ssh/sshd_config
+/var/log/auth.log:Jul  7 07:43:46 LAPTOP-13H4O2FN sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+/var/log/auth.log:Jul  7 07:45:30 LAPTOP-13H4O2FN sudo: pam_unix(sudo:session): session closed for user root
+/var/log/auth.log:Jul  7 07:45:34 LAPTOP-13H4O2FN sudo: iqbaalrj : TTY=pts/0 ; PWD=/home/iqbaalrj ; USER=root ; COMMAND=/usr/bin/systemctl restart sshd.service
+/var/log/auth.log:Jul  7 07:45:34 LAPTOP-13H4O2FN sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+/var/log/auth.log:Jul  7 07:45:35 LAPTOP-13H4O2FN sshd[1298]: Received signal 15; terminating.
+/var/log/auth.log:Jul  7 07:45:35 LAPTOP-13H4O2FN sshd[1313]: Server listening on 0.0.0.0 port 2000.
+/var/log/auth.log:Jul  7 07:45:35 LAPTOP-13H4O2FN sshd[1313]: Server listening on :: port 2000.
+/var/log/auth.log:Jul  7 07:45:35 LAPTOP-13H4O2FN sudo: pam_unix(sudo:session): session closed for user root
+/var/log/auth.log:Jul  7 07:45:43 LAPTOP-13H4O2FN sudo: iqbaalrj : TTY=pts/0 ; PWD=/home/iqbaalrj ; USER=root ; COMMAND=/usr/bin/systemctl status sshd.service
+/var/log/auth.log:Jul  7 07:45:43 LAPTOP-13H4O2FN sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+/var/log/auth.log:Jul  7 07:45:43 LAPTOP-13H4O2FN sudo: pam_unix(sudo:session): session closed for user root
+/var/log/auth.log:Jul  7 07:49:23 LAPTOP-13H4O2FN sshd[1324]: error: kex_exchange_identification: client sent invalid protocol identifier "\377\364\377\375\006\377\364\377\375\006"
+/var/log/auth.log:Jul  7 07:49:23 LAPTOP-13H4O2FN sshd[1324]: banner exchange: Connection from 127.0.0.1 port 57330: invalid format
+/var/log/auth.log:Jul  7 07:49:28 LAPTOP-13H4O2FN sshd[1330]: Accepted publickey for dicoding from 127.0.0.1 port 36084 ssh2: RSA SHA256:pHuhdFsJxMvfhW/aFJkszp22d7gZHh+bX4nB6lZXACs
+/var/log/auth.log:Jul  7 07:49:28 LAPTOP-13H4O2FN sshd[1330]: pam_unix(sshd:session): session opened for user dicoding(uid=1002) by (uid=0)
+/var/log/auth.log:Jul  7 07:49:28 LAPTOP-13H4O2FN systemd-logind[168]: New session c7 of user dicoding.
+/var/log/auth.log:Jul  7 07:49:28 LAPTOP-13H4O2FN systemd: pam_unix(systemd-user:session): session opened for user dicoding(uid=1002) by (uid=0)
+/var/log/auth.log:Jul  7 07:49:43 LAPTOP-13H4O2FN sshd[1361]: Received disconnect from 127.0.0.1 port 36084:11: disconnected by user
+/var/log/auth.log:Jul  7 07:49:43 LAPTOP-13H4O2FN sshd[1361]: Disconnected from user dicoding 127.0.0.1 port 36084
+/var/log/auth.log:Jul  7 07:49:43 LAPTOP-13H4O2FN sshd[1330]: pam_unix(sshd:session): session closed for user dicoding
+/var/log/auth.log:Jul  7 07:49:43 LAPTOP-13H4O2FN systemd-logind[168]: Session c7 logged out. Waiting for processes to exit.
+/var/log/auth.log:Jul  7 07:49:43 LAPTOP-13H4O2FN systemd-logind[168]: Removed session c7.
+/var/log/auth.log:Jul  7 07:49:59 LAPTOP-13H4O2FN sudo: iqbaalrj : TTY=pts/0 ; PWD=/home/iqbaalrj ; USER=root ; COMMAND=/usr/bin/nano /etc/ssh/sshd_config
+/var/log/auth.log:Jul  7 07:49:59 LAPTOP-13H4O2FN sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+/var/log/auth.log:Jul  7 07:50:04 LAPTOP-13H4O2FN sudo: pam_unix(sudo:session): session closed for user root
+/var/log/auth.log:Jul  7 07:50:11 LAPTOP-13H4O2FN sshd[1381]: Accepted publickey for dicoding from 127.0.0.1 port 54550 ssh2: RSA SHA256:pHuhdFsJxMvfhW/aFJkszp22d7gZHh+bX4nB6lZXACs
+/var/log/auth.log:Jul  7 07:50:11 LAPTOP-13H4O2FN sshd[1381]: pam_unix(sshd:session): session opened for user dicoding(uid=1002) by (uid=0)
+/var/log/auth.log:Jul  7 07:50:11 LAPTOP-13H4O2FN systemd-logind[168]: New session c8 of user dicoding.
+/var/log/auth.log:Jul  7 07:50:11 LAPTOP-13H4O2FN systemd: pam_unix(systemd-user:session): session opened for user dicoding(uid=1002) by (uid=0)
+/var/log/auth.log:Jul  7 07:51:37 LAPTOP-13H4O2FN sshd[1412]: Received disconnect from 127.0.0.1 port 54550:11: disconnected by user
+/var/log/auth.log:Jul  7 07:51:37 LAPTOP-13H4O2FN sshd[1412]: Disconnected from user dicoding 127.0.0.1 port 54550
+/var/log/auth.log:Jul  7 07:51:37 LAPTOP-13H4O2FN sshd[1381]: pam_unix(sshd:session): session closed for user dicoding
+/var/log/auth.log:Jul  7 07:51:37 LAPTOP-13H4O2FN systemd-logind[168]: Session c8 logged out. Waiting for processes to exit.
+/var/log/auth.log:Jul  7 07:51:37 LAPTOP-13H4O2FN systemd-logind[168]: Removed session c8.
+/var/log/auth.log:Jul  7 07:51:44 LAPTOP-13H4O2FN sudo: iqbaalrj : TTY=pts/0 ; PWD=/home/iqbaalrj ; USER=root ; COMMAND=/usr/bin/nano /etc/ssh/sshd_config
+/var/log/auth.log:Jul  7 07:51:44 LAPTOP-13H4O2FN sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+/var/log/auth.log:Jul  7 07:53:54 LAPTOP-13H4O2FN sudo: pam_unix(sudo:session): session closed for user root
+/var/log/auth.log:Jul  7 07:53:57 LAPTOP-13H4O2FN sudo: iqbaalrj : TTY=pts/0 ; PWD=/home/iqbaalrj ; USER=root ; COMMAND=/usr/bin/systemctl restart sshd.service
+/var/log/auth.log:Jul  7 07:53:57 LAPTOP-13H4O2FN sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+/var/log/auth.log:Jul  7 07:53:57 LAPTOP-13H4O2FN sshd[1313]: Received signal 15; terminating.
+/var/log/auth.log:Jul  7 07:53:57 LAPTOP-13H4O2FN sshd[1440]: Server listening on 0.0.0.0 port 2000.
+/var/log/auth.log:Jul  7 07:53:57 LAPTOP-13H4O2FN sshd[1440]: Server listening on :: port 2000.
+/var/log/auth.log:Jul  7 07:53:57 LAPTOP-13H4O2FN sudo: pam_unix(sudo:session): session closed for user root
+/var/log/auth.log:Jul  7 07:54:50 LAPTOP-13H4O2FN sshd[1445]: Accepted publickey for dicoding from 127.0.0.1 port 60978 ssh2: RSA SHA256:pHuhdFsJxMvfhW/aFJkszp22d7gZHh+bX4nB6lZXACs
+/var/log/auth.log:Jul  7 07:54:50 LAPTOP-13H4O2FN sshd[1445]: pam_unix(sshd:session): session opened for user dicoding(uid=1002) by (uid=0)
+/var/log/auth.log:Jul  7 07:54:50 LAPTOP-13H4O2FN systemd-logind[168]: New session c9 of user dicoding.
+/var/log/auth.log:Jul  7 07:54:50 LAPTOP-13H4O2FN systemd: pam_unix(systemd-user:session): session opened for user dicoding(uid=1002) by (uid=0)
+/var/log/auth.log:Jul  7 07:54:55 LAPTOP-13H4O2FN sshd[1476]: Received disconnect from 127.0.0.1 port 60978:11: disconnected by user
+/var/log/auth.log:Jul  7 07:54:55 LAPTOP-13H4O2FN sshd[1476]: Disconnected from user dicoding 127.0.0.1 port 60978
+/var/log/auth.log:Jul  7 07:54:55 LAPTOP-13H4O2FN sshd[1445]: pam_unix(sshd:session): session closed for user dicoding
+/var/log/auth.log:Jul  7 07:54:55 LAPTOP-13H4O2FN systemd-logind[168]: Session c9 logged out. Waiting for processes to exit.
+/var/log/auth.log:Jul  7 07:54:55 LAPTOP-13H4O2FN systemd-logind[168]: Removed session c9.
+/var/log/auth.log:Jul  7 07:55:03 LAPTOP-13H4O2FN sshd[1489]: Connection closed by authenticating user root 127.0.0.1 port 59062 [preauth]
+/var/log/auth.log:Jul  7 07:55:24 LAPTOP-13H4O2FN sudo: iqbaalrj : TTY=pts/0 ; PWD=/home/iqbaalrj ; USER=root ; COMMAND=/usr/bin/nano /etc/ssh/sshd_config
+/var/log/auth.log:Jul  7 07:55:24 LAPTOP-13H4O2FN sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+/var/log/auth.log:Jul  7 07:55:34 LAPTOP-13H4O2FN sudo: pam_unix(sudo:session): session closed for user root
+/var/log/auth.log:Jul  7 07:55:41 LAPTOP-13H4O2FN sudo: iqbaalrj : TTY=pts/0 ; PWD=/home/iqbaalrj ; USER=root ; COMMAND=/usr/bin/systemctl restart sshd.service
+/var/log/auth.log:Jul  7 07:55:41 LAPTOP-13H4O2FN sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+/var/log/auth.log:Jul  7 07:55:41 LAPTOP-13H4O2FN sshd[1440]: Received signal 15; terminating.
+/var/log/auth.log:Jul  7 07:55:41 LAPTOP-13H4O2FN sshd[1500]: Server listening on 0.0.0.0 port 2000.
+/var/log/auth.log:Jul  7 07:55:41 LAPTOP-13H4O2FN sshd[1500]: Server listening on :: port 2000.
+/var/log/auth.log:Jul  7 07:55:41 LAPTOP-13H4O2FN sudo: pam_unix(sudo:session): session closed for user root
+/var/log/auth.log:Jul  7 07:55:46 LAPTOP-13H4O2FN sshd[1502]: Connection closed by authenticating user root 127.0.0.1 port 42740 [preauth]
+/var/log/auth.log:Jul  7 07:55:56 LAPTOP-13H4O2FN sudo: iqbaalrj : TTY=pts/0 ; PWD=/home/iqbaalrj ; USER=root ; COMMAND=/usr/bin/systemctl restart sshd.service
+/var/log/auth.log:Jul  7 07:55:56 LAPTOP-13H4O2FN sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+/var/log/auth.log:Jul  7 07:55:56 LAPTOP-13H4O2FN sshd[1500]: Received signal 15; terminating.
+/var/log/auth.log:Jul  7 07:55:56 LAPTOP-13H4O2FN sshd[1511]: Server listening on 0.0.0.0 port 2000.
+/var/log/auth.log:Jul  7 07:55:56 LAPTOP-13H4O2FN sshd[1511]: Server listening on :: port 2000.
+/var/log/auth.log:Jul  7 07:55:56 LAPTOP-13H4O2FN sudo: pam_unix(sudo:session): session closed for user root
+/var/log/auth.log:Jul  7 07:56:05 LAPTOP-13H4O2FN sudo: iqbaalrj : TTY=pts/0 ; PWD=/home/iqbaalrj ; USER=root ; COMMAND=/usr/bin/systemctl status sshd.service
+/var/log/auth.log:Jul  7 07:56:05 LAPTOP-13H4O2FN sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+/var/log/auth.log:Jul  7 07:56:05 LAPTOP-13H4O2FN sudo: pam_unix(sudo:session): session closed for user root
+/var/log/auth.log:Jul  7 07:56:20 LAPTOP-13H4O2FN sshd[1517]: Connection closed by authenticating user root 127.0.0.1 port 58320 [preauth]
+/var/log/auth.log:Jul  7 07:56:40 LAPTOP-13H4O2FN sudo: iqbaalrj : TTY=pts/0 ; PWD=/home/iqbaalrj ; USER=root ; COMMAND=/usr/bin/nano /etc/ssh/sshd_config
+/var/log/auth.log:Jul  7 07:56:40 LAPTOP-13H4O2FN sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+/var/log/auth.log:Jul  7 07:56:48 LAPTOP-13H4O2FN sudo: pam_unix(sudo:session): session closed for user root
+/var/log/auth.log:Jul  7 07:56:51 LAPTOP-13H4O2FN sshd[1524]: Connection closed by authenticating user root 127.0.0.1 port 45578 [preauth]
+/var/log/auth.log:Jul  7 07:57:06 LAPTOP-13H4O2FN sshd[1527]: Accepted publickey for dicoding from 127.0.0.1 port 48004 ssh2: RSA SHA256:pHuhdFsJxMvfhW/aFJkszp22d7gZHh+bX4nB6lZXACs
+/var/log/auth.log:Jul  7 07:57:06 LAPTOP-13H4O2FN sshd[1527]: pam_unix(sshd:session): session opened for user dicoding(uid=1002) by (uid=0)
+/var/log/auth.log:Jul  7 07:57:06 LAPTOP-13H4O2FN systemd-logind[168]: New session c10 of user dicoding.
+/var/log/auth.log:Jul  7 07:57:06 LAPTOP-13H4O2FN systemd: pam_unix(systemd-user:session): session opened for user dicoding(uid=1002) by (uid=0)
+/var/log/auth.log:Jul  7 08:00:40 LAPTOP-13H4O2FN sudo: dicoding : user NOT in sudoers ; TTY=pts/2 ; PWD=/home/dicoding ; USER=root ; COMMAND=/usr/bin/tail /var/log/syslog
+/var/log/auth.log:Jul  7 08:00:47 LAPTOP-13H4O2FN sshd[1558]: Received disconnect from 127.0.0.1 port 48004:11: disconnected by user
+/var/log/auth.log:Jul  7 08:00:47 LAPTOP-13H4O2FN sshd[1558]: Disconnected from user dicoding 127.0.0.1 port 48004
+/var/log/auth.log:Jul  7 08:00:47 LAPTOP-13H4O2FN sshd[1527]: pam_unix(sshd:session): session closed for user dicoding
+/var/log/auth.log:Jul  7 08:00:47 LAPTOP-13H4O2FN systemd-logind[168]: Session c10 logged out. Waiting for processes to exit.
+/var/log/auth.log:Jul  7 08:00:47 LAPTOP-13H4O2FN systemd-logind[168]: Removed session c10.
+/var/log/auth.log:Jul  7 08:00:50 LAPTOP-13H4O2FN sudo: iqbaalrj : TTY=pts/0 ; PWD=/home/iqbaalrj ; USER=root ; COMMAND=/usr/bin/tail /var/log/syslog
+/var/log/auth.log:Jul  7 08:00:50 LAPTOP-13H4O2FN sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+/var/log/auth.log:Jul  7 08:00:50 LAPTOP-13H4O2FN sudo: pam_unix(sudo:session): session closed for user root
+/var/log/auth.log:Jul  7 08:01:29 LAPTOP-13H4O2FN sudo: iqbaalrj : TTY=pts/0 ; PWD=/home/iqbaalrj ; USER=root ; COMMAND=/usr/bin/tail -f /var/log/syslog
+/var/log/auth.log:Jul  7 08:01:29 LAPTOP-13H4O2FN sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+/var/log/auth.log:Jul  7 08:02:12 LAPTOP-13H4O2FN sudo: pam_unix(sudo:session): session closed for user root
+/var/log/auth.log:Jul  7 08:03:45 LAPTOP-13H4O2FN sudo: iqbaalrj : TTY=pts/0 ; PWD=/home/iqbaalrj ; USER=root ; COMMAND=/usr/bin/journalctl
+/var/log/auth.log:Jul  7 08:03:45 LAPTOP-13H4O2FN sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+/var/log/auth.log:Jul  7 08:11:02 LAPTOP-13H4O2FN sudo: pam_unix(sudo:session): session closed for user root
+/var/log/auth.log:Jul  7 08:12:25 LAPTOP-13H4O2FN sudo: iqbaalrj : TTY=pts/0 ; PWD=/home/iqbaalrj ; USER=root ; COMMAND=/usr/bin/tail /var/log/syslog
+/var/log/auth.log:Jul  7 08:12:25 LAPTOP-13H4O2FN sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+/var/log/auth.log:Jul  7 08:12:25 LAPTOP-13H4O2FN sudo: pam_unix(sudo:session): session closed for user root
+/var/log/auth.log:Jul  7 08:12:49 LAPTOP-13H4O2FN sudo: iqbaalrj : TTY=pts/0 ; PWD=/home/iqbaalrj ; USER=root ; COMMAND=/usr/bin/tail /var/log/lastlog
+/var/log/auth.log:Jul  7 08:12:49 LAPTOP-13H4O2FN sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+/var/log/auth.log:Jul  7 08:12:51 LAPTOP-13H4O2FN sudo: pam_unix(sudo:session): session closed for user root
+/var/log/auth.log:Jul  7 08:13:24 LAPTOP-13H4O2FN sudo: iqbaalrj : TTY=pts/0 ; PWD=/home/iqbaalrj ; USER=root ; COMMAND=/usr/bin/tail /var/log/auth.log
+/var/log/auth.log:Jul  7 08:13:24 LAPTOP-13H4O2FN sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+/var/log/auth.log:Jul  7 08:13:24 LAPTOP-13H4O2FN sudo: pam_unix(sudo:session): session closed for user root
+/var/log/auth.log:Jul  7 08:14:26 LAPTOP-13H4O2FN sudo: iqbaalrj : TTY=pts/0 ; PWD=/home/iqbaalrj ; USER=root ; COMMAND=/usr/bin/tail -f /var/log/syslog
+/var/log/auth.log:Jul  7 08:14:26 LAPTOP-13H4O2FN sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+/var/log/auth.log:Jul  7 08:14:38 LAPTOP-13H4O2FN sudo: pam_unix(sudo:session): session closed for user root
+/var/log/auth.log:Jul  7 08:17:01 LAPTOP-13H4O2FN CRON[1624]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+/var/log/auth.log:Jul  7 08:17:01 LAPTOP-13H4O2FN CRON[1624]: pam_unix(cron:session): session closed for user root
+/var/log/auth.log:Jul  7 08:29:18 LAPTOP-13H4O2FN sudo: iqbaalrj : TTY=pts/0 ; PWD=/home/iqbaalrj ; USER=root ; COMMAND=/usr/bin/nano passwd
+/var/log/auth.log:Jul  7 08:29:18 LAPTOP-13H4O2FN sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+/var/log/auth.log:Jul  7 08:29:40 LAPTOP-13H4O2FN sudo: pam_unix(sudo:session): session closed for user root
+/var/log/auth.log:Jul  7 08:30:14 LAPTOP-13H4O2FN sudo: iqbaalrj : TTY=pts/0 ; PWD=/home/iqbaalrj ; USER=root ; COMMAND=/usr/bin/nano pass.txt
+/var/log/auth.log:Jul  7 08:30:14 LAPTOP-13H4O2FN sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+/var/log/auth.log:Jul  7 08:30:20 LAPTOP-13H4O2FN sudo: pam_unix(sudo:session): session closed for user root
+/var/log/auth.log:Jul  7 08:39:58 LAPTOP-13H4O2FN sudo: iqbaalrj : TTY=pts/0 ; PWD=/home/iqbaalrj ; USER=root ; COMMAND=/usr/bin/rm pass.txt
+/var/log/auth.log:Jul  7 08:39:58 LAPTOP-13H4O2FN sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+/var/log/auth.log:Jul  7 08:39:58 LAPTOP-13H4O2FN sudo: pam_unix(sudo:session): session closed for user root
+/var/log/auth.log:Jul  7 08:40:23 LAPTOP-13H4O2FN sudo: iqbaalrj : TTY=pts/0 ; PWD=/home/iqbaalrj ; USER=root ; COMMAND=/usr/bin/rm passwd
+/var/log/auth.log:Jul  7 08:40:23 LAPTOP-13H4O2FN sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+/var/log/auth.log:Jul  7 08:40:23 LAPTOP-13H4O2FN sudo: pam_unix(sudo:session): session closed for user root
+/var/log/auth.log:Jul  7 08:41:19 LAPTOP-13H4O2FN sudo: iqbaalrj : TTY=pts/0 ; PWD=/home/iqbaalrj ; USER=root ; COMMAND=/usr/bin/nano /etc/passwd
+/var/log/auth.log:Jul  7 08:41:19 LAPTOP-13H4O2FN sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+/var/log/auth.log:Jul  7 08:42:40 LAPTOP-13H4O2FN sudo: pam_unix(sudo:session): session closed for user root
+/var/log/auth.log:Jul  7 08:46:15 LAPTOP-13H4O2FN sudo: iqbaalrj : TTY=pts/0 ; PWD=/home/iqbaalrj ; USER=root ; COMMAND=/usr/bin/tail /var/log/auth.log
+/var/log/auth.log:Jul  7 08:46:15 LAPTOP-13H4O2FN sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+/var/log/auth.log:Jul  7 08:46:15 LAPTOP-13H4O2FN sudo: pam_unix(sudo:session): session closed for user root
+/var/log/auth.log:Jul  7 08:46:58 LAPTOP-13H4O2FN sudo: iqbaalrj : TTY=pts/0 ; PWD=/home/iqbaalrj ; USER=root ; COMMAND=/usr/bin/tail -20 /var/log/auth.log
+/var/log/auth.log:Jul  7 08:46:58 LAPTOP-13H4O2FN sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+/var/log/auth.log:Jul  7 08:46:58 LAPTOP-13H4O2FN sudo: pam_unix(sudo:session): session closed for user root
+/var/log/auth.log:Jul  7 08:47:11 LAPTOP-13H4O2FN sudo: iqbaalrj : TTY=pts/0 ; PWD=/home/iqbaalrj ; USER=root ; COMMAND=/usr/bin/tail -a /var/log/auth.log
+/var/log/auth.log:Jul  7 08:47:11 LAPTOP-13H4O2FN sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+/var/log/auth.log:Jul  7 08:47:11 LAPTOP-13H4O2FN sudo: pam_unix(sudo:session): session closed for user root
+/var/log/auth.log:Jul  7 08:47:18 LAPTOP-13H4O2FN sudo: iqbaalrj : TTY=pts/0 ; PWD=/home/iqbaalrj ; USER=root ; COMMAND=/usr/bin/tail -25 /var/log/auth.log
+/var/log/auth.log:Jul  7 08:47:18 LAPTOP-13H4O2FN sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+/var/log/auth.log:Jul  7 08:47:18 LAPTOP-13H4O2FN sudo: pam_unix(sudo:session): session closed for user root
+/var/log/auth.log:Jul  7 08:48:41 LAPTOP-13H4O2FN sudo: iqbaalrj : TTY=pts/0 ; PWD=/home/iqbaalrj ; USER=root ; COMMAND=/usr/bin/nano /var/log/auth.log
+/var/log/auth.log:Jul  7 08:48:41 LAPTOP-13H4O2FN sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+/var/log/auth.log:Jul  7 08:51:28 LAPTOP-13H4O2FN sudo: pam_unix(sudo:session): session closed for user root
+/var/log/auth.log:Jul  7 08:52:03 LAPTOP-13H4O2FN sudo: iqbaalrj : TTY=pts/0 ; PWD=/home/iqbaalrj ; USER=root ; COMMAND=/usr/bin/nano log-ssh
+/var/log/auth.log:Jul  7 08:52:03 LAPTOP-13H4O2FN sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+/var/log/auth.log:Jul  7 08:52:22 LAPTOP-13H4O2FN sudo: pam_unix(sudo:session): session closed for user root
+/var/log/auth.log:Jul  7 08:52:26 LAPTOP-13H4O2FN sudo: iqbaalrj : TTY=pts/0 ; PWD=/home/iqbaalrj ; USER=root ; COMMAND=/usr/bin/nano /var/log/auth.log
+/var/log/auth.log:Jul  7 08:52:26 LAPTOP-13H4O2FN sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+/var/log/auth.log:Jul  7 08:54:45 LAPTOP-13H4O2FN sudo: pam_unix(sudo:session): session closed for user root
+/var/log/auth.log:Jul  7 08:54:49 LAPTOP-13H4O2FN sudo: iqbaalrj : TTY=pts/0 ; PWD=/home/iqbaalrj ; USER=root ; COMMAND=/usr/bin/nano log-ssh
+/var/log/auth.log:Jul  7 08:54:49 LAPTOP-13H4O2FN sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+/var/log/auth.log:Jul  7 08:55:08 LAPTOP-13H4O2FN sudo: pam_unix(sudo:session): session closed for user root
+/var/log/auth.log:Jul  7 08:56:33 LAPTOP-13H4O2FN sudo: iqbaalrj : TTY=pts/0 ; PWD=/home/iqbaalrj ; USER=root ; COMMAND=/usr/bin/nano /var/log/auth.log
+/var/log/auth.log:Jul  7 08:56:33 LAPTOP-13H4O2FN sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+/var/log/auth.log:Jul  7 08:58:58 LAPTOP-13H4O2FN sudo: pam_unix(sudo:session): session closed for user root
